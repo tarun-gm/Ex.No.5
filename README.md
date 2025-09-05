@@ -1,38 +1,78 @@
 
+---
 
-# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
+# **EXP 5: Comparative Study of Prompting Approaches Across Multiple Scenarios**
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+Date:05.09.2025
+Register Number:212223060284
 
-### AI Tools Required: 
+---
 
-# Explanation: 
-Define the Two Prompt Types:
+## **Aim**
 
-Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Based on that pattern type refined the prompt and submit that with AI tool.
-Get the ouput and write the report.
+To evaluate how ChatGPT responds when provided with **unstructured (naïve) prompts** compared to **structured (refined/basic) prompts**. The experiment focuses on measuring the **quality, accuracy, and depth** of outputs across different tasks.
 
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+---
 
+## **AI Tool Utilized**
 
-# OUTPUT
+* ChatGPT (OpenAI)
 
-# RESULT: The prompt for the above said problem executed successfully
+---
+
+## **Concept Explanation**
+
+Two prompt categories are compared:
+
+1. **Naïve Prompt** – Short, vague, or general instructions without proper context.
+2. **Refined Prompt** – Well-structured, explicit, and detailed instructions with clarity.
+
+By testing both prompt types across scenarios, the experiment highlights how **prompt engineering** directly affects AI-generated outputs.
+
+---
+
+## **Experimental Procedure**
+
+1. Define different **test scenarios** (story writing, factual Q\&A, summarization, advice).
+2. Design a **naïve prompt** and a **refined prompt** for each case.
+3. Run both prompts in ChatGPT and **document responses**.
+4. Compare results on **three criteria**:
+
+   * Quality (relevance & fluency)
+   * Accuracy (factual correctness)
+   * Depth (level of detail & reasoning).
+5. Draw insights on the importance of structured prompting.
+
+---
+
+## **Test Scenarios & Observations**
+
+| **Scenario**          | **Naïve Prompt**            | **Response (Naïve)**                  | **Refined Prompt**                                                             | **Response (Refined)**                               | **Comparison**                               |
+| --------------------- | --------------------------- | ------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- | -------------------------------------------- |
+| Creative Story        | “Write a story.”            | Very short, lacks flow, generic plot. | “Write a 200-word moral story for children about honesty.”                     | Well-structured, age-appropriate, moral highlighted. | Refined prompt gave better quality & depth.  |
+| Factual Question      | “Tell me about the moon.”   | Basic facts, short lines.             | “Explain the origin, surface features, and role of the moon in tides.”         | Detailed, accurate scientific explanation.           | Refined prompt improved accuracy & coverage. |
+| Summarization         | “Summarize climate change.” | 2–3 vague lines.                      | “Summarize the causes, effects, and solutions of climate change in 150 words.” | Organized summary with causes, impacts, solutions.   | Refined prompt yielded structured depth.     |
+| Advice/Recommendation | “Give me advice.”           | Very general tips.                    | “Suggest three daily health tips for office workers to reduce stress.”         | Practical, actionable, and specific advice.          | Refined prompt more useful and relevant.     |
+
+---
+
+## **Analysis**
+
+* **Naïve prompts** often generate **surface-level answers** with limited structure.
+* **Refined prompts** consistently improved **accuracy**, added **depth**, and tailored responses to the task.
+* In creative tasks, refined prompts ensured **focus and direction**.
+* However, for very simple tasks, naïve prompts sometimes produced acceptable answers.
+
+---
+
+## **Conclusion**
+
+The experiment proves that **structured prompting significantly enhances AI response quality**. Clear instructions help ChatGPT provide outputs that are **more accurate, detailed, and context-specific**. Naïve prompts may work for simple queries, but refined prompts are essential for complex tasks.
+
+---
+
+## **Result**
+
+Thus, the comparative analysis between naïve and refined prompting techniques was successfully executed, and the role of prompt clarity in improving AI outputs was demonstrated.
+
+---
